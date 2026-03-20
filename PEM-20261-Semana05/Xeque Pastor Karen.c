@@ -89,8 +89,8 @@ int main() {
     esperarEnter();
 
     // Jogada 1
-    realizarJogada(6, 4, 4, 4, "Brancas jogam peão e2 para e4");
-    realizarJogada(1, 4, 3, 4, "Pretas jogam peão e7 para e5");
+    realizarJogada(6, 4, 4, 4, "Brancas jogam peao e2 para e4");
+    realizarJogada(1, 4, 3, 4, "Pretas jogam peao e7 para e5");
 
     // Jogada 2
     realizarJogada(7, 5, 4, 2, "Brancas jogam bispo f1 para c4");
@@ -104,6 +104,6 @@ int main() {
     realizarJogada(3, 7, 1, 5, "======== XEQUE MATE! Dxf7 ========");
 
     limparTela();
-    printf("\nXEQUE PASTOR CONCLUÍDO\n");
+    printf("\nXEQUE PASTOR CONCLUIDO\n");
     return 0;
 }
